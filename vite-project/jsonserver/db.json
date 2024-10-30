@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "nome": "Admin",
+      "email": "admin@gmail.com",
+      "permissoes": "admin",
+      "password": "$2a$10$UxPar.FpkHGRPzPwvunZtey23YWNS8QKWo4iUmU/ays2aN5HCsCny",
+      "id": 1
+    },
+    {
+      "nome": "Igor",
+      "email": "igorantonucci5@gmail.com",
+      "permissoes": "admin",
+      "password": "$2a$10$gKNsfYVu9ORXwN3vFEsyVOcCmfKLlI9YW9CX68lBfJ.NODcTdQc3O",
+      "id": 2
+    },
+    {
+      "nome": "Chinês",
+      "email": "chines@gmail.com",
+      "permissoes": "colaborador",
+      "password": "$2a$10$HaVDlMjJWqk.2.0gz/FAeuSf2DSC1wswwnImYpM8.5cITrrN4M/xq",
+      "id": 3
+    },
+    {
+      "nome": "Igor2",
+      "email": "igorantonucci5@gmail.org",
+      "permissoes": "colaborador",
+      "password": "$2a$10$4S7DSLf6IIvSwJ1eYaBmd.rnjbdOWUoZzXbmIa95jC3ePU3KxK.lG",
+      "id": 4
+    },
+    {
+      "nome": "Igor3",
+      "email": "igor@hotmail.com",
+      "permissoes": "admin",
+      "password": "$2a$10$rgbjR.5de3PuIFBXCK9tROOHf1Pm1mZS1QDiOrDIIg0iFyZckBQTq",
+      "id": 5
+    }
+  ]
+}
