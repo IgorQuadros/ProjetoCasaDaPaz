@@ -5,11 +5,10 @@ import {
 } from 'react-router-dom'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
-import Produto from './pages/Produto'
 import PaginaDeExemplo from './pages/PaginaDeExemplo'
 import Usuarios from './pages/Usuarios'
 import GerenciarUsuarios from './pages/Usuarios/Gerenciar'
-import Voluntarios from './pages/Voluntários'
+import Doacoes from './pages/Doações'
 
 export const Rotas = () => {
     
@@ -33,18 +32,15 @@ export const Rotas = () => {
                     path='/usuarios/:id'
                     element={<GerenciarUsuarios />}
                 />
-                <Route 
-                    path='/produto/:id'
-                    element={<Produto />}
-                />
                 <Route
                     path='/exemplo'
                     element={<PaginaDeExemplo />}
                 />
                 <Route 
-                    path='/voluntarios'
-                    element={<Voluntarios />}
+                    path='/doacoes'
+                    element={<Doacoes />}
                 />
+
 
             </Routes>
         </BrowserRouter>

@@ -30,9 +30,9 @@
     },
     {
       "nome": "Igor3",
-      "email": "igor@hotmail",
+      "email": "igor@hotmail.com",
       "permissoes": "admin",
-      "password": "$2a$10$6gIMrrladQX4GyuxX51j5eKcbxiirK.TbXrkfXgJB4lPXdh9sMum.",
+      "password": "$2a$10$rgbjR.5de3PuIFBXCK9tROOHf1Pm1mZS1QDiOrDIIg0iFyZckBQTq",
       "id": 5
     }
   ]
