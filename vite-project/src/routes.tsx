@@ -9,6 +9,9 @@ import PaginaDeExemplo from './pages/PaginaDeExemplo'
 import Usuarios from './pages/Usuarios'
 import GerenciarUsuarios from './pages/Usuarios/Gerenciar'
 import Doacoes from './pages/Doações'
+import Cadastro from './pages/Cadastro'
+import PasswordReset from './pages/RecuperaçãoDeSenha'
+import UserProfile from './pages/PerfilUsuário'
 
 export const Rotas = () => {
     
@@ -40,7 +43,18 @@ export const Rotas = () => {
                     path='/doacoes'
                     element={<Doacoes />}
                 />
-
+                <Route 
+                    path='/cadastro'
+                    element={<Cadastro />}
+                />
+                <Route 
+                    path='/recuperacao'
+                    element={<PasswordReset />}
+                />
+                <Route 
+                    path='/perfil'
+                    element={<UserProfile />}
+                />
 
             </Routes>
         </BrowserRouter>
