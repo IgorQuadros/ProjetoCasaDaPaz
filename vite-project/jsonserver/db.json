@@ -15,13 +15,6 @@
       "id": 2
     },
     {
-      "nome": "Chinês",
-      "email": "chines@gmail.com",
-      "permissoes": "colaborador",
-      "password": "$2a$10$HaVDlMjJWqk.2.0gz/FAeuSf2DSC1wswwnImYpM8.5cITrrN4M/xq",
-      "id": 3
-    },
-    {
       "nome": "Igor2",
       "email": "igorantonucci5@gmail.org",
       "permissoes": "colaborador",
