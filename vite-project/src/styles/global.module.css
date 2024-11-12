@@ -1,3 +1,147 @@
-.title {
-    color: red;
-}
+/* Paleta de cores */
+:root {
+    --green-dark: #184c32;
+    --green-light: #9bcf68;
+    --pink-vibrant: #ff006e;
+    --blue-button: #0072bb;
+    --text-color: #f9f9fc;
+  }
+
+  /* Estilos Gerais */
+  body {
+    background-color: #f4f4f9;
+    color: var(--text-color);
+    padding-top: 60px; /* Compensa o header fixo */
+  }
+
+  /* Header */
+  .navbar {
+    background-color: var(--green-dark);
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: var(--text-color) !important;
+  }
+
+  .fixed-top .nav-link:hover {
+    color: var(--green-light) !important;
+  }
+
+  /* Botão de Login */
+  .btn-login {
+    background-color: var(--blue-button);
+    border-color: var(--blue-button);
+    color: var(--text-color);
+    padding: 8px 16px;
+    margin-left: 10px;
+  }
+  .btn-login:hover {
+    background-color: var(--blue-button);
+    color: var(--text-color);
+  }
+
+  /* Linha separadora */
+  .separator-line {
+    width: 100%;
+    height: 2px;
+    background-color: var(--text-color);
+  }
+
+  /* Conteúdo principal */
+  .main-content {
+    background-color: var(--green-dark);
+    text-align: center;
+    padding: 50px;
+    color: var(--text-color);
+  }
+
+  .main-content img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+
+  /* Seção Dividida */
+  .split-section {
+    display: flex;
+    padding: 0;
+    border-top: 2px solid var(--text-color);
+  }
+
+  /* Parte Esquerda */
+  .split-section .left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--text-color);
+    color: var(--blue-button);
+    font-size: 1.2em;
+    padding: 20px;
+  }
+
+  /* Triângulos */
+  .triangle-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-bottom: 60px solid var(--pink-vibrant);
+  }
+
+  .triangle-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-top: 60px solid var(--pink-vibrant);
+  }
+
+  /* Parte Direita */
+  .split-section .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .split-section .right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Estilo dos Botões */
+  .btn-primary {
+    background-color: var(--blue-button);
+    border-color: var(--blue-button);
+    color: var(--text-color);
+    margin: 10px 10px;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+  }
+
+  .btn-outline-primary {
+    color: var(--blue-button);
+    border-color: var(--blue-button);
+  }
+
+  .btn-primary:hover,
+  .btn-outline-primary:hover,
+  .btn-login:hover {
+    background-color: var(--pink-vibrant);
+    color: var(--text-color);
+  }
+
+  /* Footer */
+  footer {
+    background-color: var(--green-dark);
+    color: var(--text-color);
+    padding: 15px 0;
+    text-align: center;
+  }
