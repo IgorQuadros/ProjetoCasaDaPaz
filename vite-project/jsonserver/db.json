@@ -27,6 +27,13 @@
       "permissoes": "admin",
       "password": "$2a$10$rgbjR.5de3PuIFBXCK9tROOHf1Pm1mZS1QDiOrDIIg0iFyZckBQTq",
       "id": 5
+    },
+    {
+      "email": "Igor@gmail",
+      "password": "$2a$10$h5pNPPa7J68HUWmcryRoLu.EYN.XRARI8ma6TCKLOKByDnH2jwjTK",
+      "nome": "Igor",
+      "permissoes": "colaborador",
+      "id": 6
     }
   ]
 }
